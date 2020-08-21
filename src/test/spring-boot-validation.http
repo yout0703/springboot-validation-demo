@@ -1,0 +1,21 @@
+GET http://localhost:8080/validation/example1?param=
+Accept: application/json
+
+###
+GET http://localhost:8080/validation/example2/2
+Accept: application/json
+
+
+### Send POST request with json body
+POST http://localhost:8080/validation/example3/
+Content-Type: application/json
+
+{
+  "name": "",
+  "age": "1",
+  "favorite": ["reading"]
+}
+
+###
+GET http://localhost:8080/validation/example4/
+Accept: application/json
